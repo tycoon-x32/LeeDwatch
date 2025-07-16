@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leedesigner Watches — 2024 Collection</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=BHHBC0boFajx&format=png&color=000000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    header h2 {
+      font-size: 1.3rem;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      background: #ffcc66;
+      color: #000;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    header a:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    section {
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0 10vw;
+      background-size: cover;
+      background-position: center;
+      transition: opacity 1s ease;
+    }
+
+    .overlay-text {
+      max-width: 600px;
+      background: rgba(0, 0, 0, 0.65);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.05);
+      opacity: 0;
+      transform: translateX(-50px);
+      transition: all 1s ease;
+    }
+
+    .overlay-text.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .price {
+      margin-top: 1.5rem;
+      font-size: 1.3rem;
+      color: #ffcc66;
+      font-weight: bold;
+    }
+
+    video.bg-vid {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Leedesigner Watches — Since 2024</h2>
+    <a href="mailto:leemessi3@gmail.com">Book Consultation</a>
+  </header>
+
+  <!-- HERO SECTION WITH FULL BACKGROUND AND EXPLORE BUTTON -->
+  <section style="background-image: url('https://images.unsplash.com/photo-1647738236657-4994defde1cc?q=80&w=1470');">
+    <div class="overlay-text visible">
+      <h1>Luxury Redefined</h1>
+      <p>Explore handcrafted timepieces that merge Swiss precision with bold identity.</p>
+      <div class="price">
+        <a href="#collections" style="background:#ffcc66; color:#000; padding:0.5rem 1rem; border-radius:4px; display:inline-block; margin-top:1rem; text-decoration:none;">Explore Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO + IMAGE WATCH COLLECTION SECTIONS -->
+  <section>
+    <video class="bg-vid" autoplay muted loop playsinline>
+      <source src="https://videos.pexels.com/video-files/6230464/6230464-hd_1920_1080_24fps.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay-text"><h1>The Oyster</h1><p>Bold, refined, timeless.</p><div class="price">$4,999</div></div>
+  </section>
+
+  <section>
+    <video class="bg-vid" autoplay muted loop playsinline>
+      <source src="https://videos.pexels.com/video-files/6811913/6811913-hd_1920_1080_25fps.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay-text"><h1>Nightfall</h1><p>Obsidian tones. Silent elegance.</p><div class="price">$6,200</div></div>
+  </section>
+
+  <section>
+    <video class="bg-vid" autoplay muted loop playsinline>
+      <source src="https://videos.pexels.com/video-files/11899562/11899562-hd_1920_1080_24fps.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay-text"><h1>Diamond Apex</h1><p>Diamonds + Swiss auto-motion.</p><div class="price">$12,800</div></div>
+  </section>
+
+  <!-- IMAGE SECTIONS START HERE -->
+  <div id="collections"></div>
+  <section style="background-image: url('https://images.unsplash.com/photo-1581948353407-cb34a56449c4');">
+    <div class="overlay-text"><h1>Chrono Black</h1><p>Dark brushed steel, luxury edition.</p><div class="price">$7,950</div></div>
+  </section>
+
+  <section style="background-image: url('https://images.unsplash.com/photo-1650974969975-a8c838ae321a');">
+    <div class="overlay-text"><h1>Velvet Steel</h1><p>Chrome + velvet overlay. For warriors of elegance.</p><div class="price">$8,750</div></div>
+  </section>
+
+  <section style="background-image: url('https://images.unsplash.com/photo-1628375162431-33c2e0a89670');">
+    <div class="overlay-text"><h1>Rose Phantom</h1><p>Midnight casing. Phantom glow finish.</p><div class="price">$9,650</div></div>
+  </section>
+
+  <section style="background-image: url('https://images.unsplash.com/photo-1642984120383-4fb67e180740');">
+    <div class="overlay-text"><h1>Vanta Gold</h1><p>Deep black metal with 24K lining.</p><div class="price">$11,100</div></div>
+  </section>
+
+  <!-- Scroll Reveal Script -->
+  <script>
+    const sections = document.querySelectorAll('section');
+    const reveal = () => {
+      sections.forEach(section => {
+        const text = section.querySelector('.overlay-text');
+        const rect = section.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.7) {
+          text.classList.add('visible');
+        } else {
+          text.classList.remove('visible');
+        }
+      });
+    };
+    window.addEventListener('scroll', reveal);
+    window.addEventListener('load', reveal);
+  </script>
+</body>
+</html>
